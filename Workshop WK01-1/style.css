@@ -10,11 +10,18 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 700;
 }
 
+header{
+    width: 1024px;
+    padding: 0;
+    margin: 0 auto;
+}
+
 #main{
+    clear: both;
     width: 1024px;
     margin: 0 auto;
-    background-color: rgb(223, 222, 222);
-    padding: 16px;
+    background-color: white;
+    box-sizing: border-box;
 }
 
 details > summary {
@@ -56,6 +63,9 @@ details > p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
+    box-sizing: border-box;
+    padding: 0;
+    overflow: hidden;
 }
 
 .hero .title{
@@ -87,4 +97,91 @@ details > p {
     float: right;
     padding-right: 32px;
     padding-top: 10%;
+}
+
+#workshop{
+    padding: 48px 16px;
+    background-color: rgb(223, 222, 222);
+    box-sizing: border-box;
+}
+
+#columns{
+    padding: 60px;
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+#columns .card{
+    width: 29.3%;
+    margin: 2%;
+    float: left;
+    /* border: 1px solid rgb(153, 153, 153); */
+    height: 300px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: #8a5585;
+    background-color: palevioletred;
+}
+
+#columns .card h1{
+    font-size: 108px;
+    text-align: center;
+    line-height: calc(300px - 32px);
+    box-sizing: border-box;
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.googlemap{
+    width: 100%;
+    height: 250px;
+}
+footer{
+    border-top: 8px black solid;
+    width: 1024px;
+    margin: 0 auto;
+    background-color: rgb(34, 34, 34);
+    /* height: 160px; */
+}
+
+footer .col-1{
+    width: 66%;
+    float: left;
+}
+
+footer .col-1 img{
+    width: 60px;
+    padding-left: 32px;
+    padding-top: 32px;
+    float: left;
+}
+
+footer .col-1 .caption{
+    float: left;
+    padding: 36px 0;
+    padding-left: 16px;
+}
+
+footer .col-1 h1{
+    color: rgb(209, 209, 209);
+    padding: 8px 0;
+}
+
+footer .col-1 p{
+    color: rgb(161, 161, 161);
+}
+
+footer .col-2{
+    width: 34%;
+    float: left;
+}
+
+footer .col-2 p{
+    padding-top: 68px;
+    color: rgb(161, 161, 161);
 }
