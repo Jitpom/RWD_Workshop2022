@@ -2,7 +2,20 @@ div{
     width: 300px;
     height: 300px;
     background-color: lightcoral;
-    margin: 50px 0; /* The first parameter (50px) is for top and bottom margins, the second one (0) is for the left and right margins */
-    padding: 50px;
-    border: 2px solid rgb(73, 50, 71);
+    margin: 50px 0; 
+    text-align: center;
+    line-height: 300px;
+}
+
+/* For the class, A "." must be used as a prefix in CSS files */
+.blue{
+    background-color: darkcyan;
+}
+
+.yellow{
+    background-color: darkgoldenrod;   
+}
+
+.big-shabby-fatty{
+    width: 500px;
 }
