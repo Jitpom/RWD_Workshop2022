@@ -61,3 +61,29 @@ nav ul li:hover{
     margin-left: 8px;
     margin-top: 4px;
 }
+
+.clearfix{
+    clear: both;
+}
+
+.heading-area{
+    padding-top: 160px;
+    padding-left: 16px;
+}
+
+.heading-area h1{
+    font-size: 60px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.heading-area p{
+    color: palevioletred;
+    border-radius: 16px;
+    width: 150px;
+    text-align: center;
+    background-color: white;
+    padding: 4px 0;
+    cursor: pointer;
+}
