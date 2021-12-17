@@ -87,3 +87,56 @@ nav ul li:hover{
     padding: 4px 0;
     cursor: pointer;
 }
+
+header{
+    position: relative;
+}
+
+header > img{
+    position: absolute;
+    top: 150px;
+    right: 32px;
+    width: 240px;
+    z-index: 5;
+}
+
+header .circle{
+    position: absolute;
+    top: 130px;
+    right: 14px;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background-color: lightcyan;
+    z-index: 4;
+}
+
+#main{
+    width: 1024px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    height: 480px;
+}
+
+#main h1{
+    text-align: center;
+}
+
+#main iframe{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+    left: 32px;
+}
+#main .text-area{
+    width: 500px;
+    position: absolute;
+    z-index: 2;
+    background: white;
+    border: 1px solid rgb(190, 190, 190);
+    right: 80px;
+    top: 100px;
+    padding: 30px 60px;
+}
