@@ -1,89 +1,63 @@
-body{
+body {
     margin: 0;
+    font-family: 'Poppins';
 }
 
-
-.box{
-    width: 300px;
-    height: 300px;
-    background-color: lightcoral;
-    color: white;
-    margin: 50px 30px; 
-    text-align: center;
-    line-height: 300px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 60px;
-    float: right;
-
-    box-sizing: border-box;
-    border: 10px solid black;
-    padding: 8px;
-}
-
-.box-no{
-    width: 300px;
-    height: 300px;
-    background-color: lightcoral;
-    color: white;
-    margin: 50px 30px; 
-    text-align: center;
-    line-height: 300px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 60px;
-    float: none;
-}
-
-#main-container h1{
-    color: white;
-}
-
-div h1{
-    color: powderblue;
-}
-
-h1{
-    margin: 0;
-    color: black;
-}
-
-.gold{
-    color: gold;
-}
-
-
-/* For the class, a "." must be used as a prefix in CSS files */
-.blue{
-    background-color: darkcyan;
-}
-
-.yellow{
-    background-color: darkgoldenrod;   
-}
-
-.big-shabby-fatty{
-    width: 500px;
-}
-
-.clearfix{
-    clear: both;
-}
-
-/* For the id, a "#" must be used as a prefix in CSS files */
-#main-container{
-    margin: 0 auto;
-    width: 1080px;
-    background-color: white;
-    border: 1px solid grey;
-}
-
-header{
-    width: 100%; /*vw stands for viewport width*/
-    height: 100vh; /*vh stands for viewport height*/
+header {
+    width: 1024px;
+    /*vw stands for viewport width*/
+    height: 60vh;
+    /*vh stands for viewport height*/
     background-color: palevioletred;
+    margin: 0 auto;
 }
 
-footer{
+footer {
     width: 100%;
     height: 200px;
     background-color: darkslategrey;
+}
+
+nav{
+    float: right;
+    margin-right: 16px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    /* border: 1px solid white; */
+    color: rgb(192, 191, 191);
+    box-sizing: border-box;
+    width: 100px;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+#top-logo{
+    float: left;
+    padding: 8px 0 0 16px;
+}
+
+#top-logo img{
+    width: 36px;
+    float: left;
+}
+
+#top-logo p{
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    margin: 0;
+    margin-left: 8px;
+    margin-top: 4px;
 }
