@@ -33,10 +33,23 @@ body{
     float: none;
 }
 
+#main-container h1{
+    color: white;
+}
+
+div h1{
+    color: powderblue;
+}
 
 h1{
     margin: 0;
+    color: black;
 }
+
+.gold{
+    color: gold;
+}
+
 
 /* For the class, a "." must be used as a prefix in CSS files */
 .blue{
