@@ -1,13 +1,35 @@
-div{
+.box{
     width: 300px;
     height: 300px;
     background-color: lightcoral;
-    margin: 50px 0; 
+    color: white;
+    margin: 50px 30px; 
     text-align: center;
     line-height: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    float: right;
 }
 
-/* For the class, A "." must be used as a prefix in CSS files */
+.box-no{
+    width: 300px;
+    height: 300px;
+    background-color: lightcoral;
+    color: white;
+    margin: 50px 30px; 
+    text-align: center;
+    line-height: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    float: none;
+}
+
+
+h1{
+    margin: 0;
+}
+
+/* For the class, a "." must be used as a prefix in CSS files */
 .blue{
     background-color: darkcyan;
 }
@@ -18,4 +40,16 @@ div{
 
 .big-shabby-fatty{
     width: 500px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+/* For the id, a "#" must be used as a prefix in CSS files */
+#main-container{
+    margin: 0 auto;
+    width: 1080px;
+    background-color: white;
+    border: 1px solid grey;
 }
