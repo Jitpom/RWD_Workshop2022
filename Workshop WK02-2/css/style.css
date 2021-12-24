@@ -8,11 +8,11 @@ body {
     width: 1024px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 1fr 1fr 100px 20%;
+    grid-template-rows: 400px 700px 100px;
     grid-template-areas:
         'header header header header'
-        'main main . side'
+        'main main side side'
         'footer footer footer footer';
 }
 
