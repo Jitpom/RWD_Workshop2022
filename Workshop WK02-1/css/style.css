@@ -12,7 +12,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     background-color: indigo;
-    align-items: center;
+    align-items: stretch;
 }
 
 
@@ -24,13 +24,23 @@ body {
     justify-content: flex-start;
     flex-direction: column;
     text-align: center;
+
+    transition: 0.5s ease-in-out all;
+    cursor: pointer;
 }
 
 .box h1{
     font-size: 5em;
 }
 
+.box:hover{
+    flex-grow: 1;
+}
+
 .middle-box{
-    width: 40%;
     background-color: grey;
+}
+
+.middle-box:hover{
+    flex-grow: 10;
 }
