@@ -7,7 +7,9 @@ body {
 header{
     width: 100vw;
     height: 80vh;
-    background-color: slategrey;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
 }
 
 .navbar{
@@ -16,6 +18,13 @@ header{
     justify-content: space-between;
     width: 100%;
     align-items: center;
+    
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+
+    color: rgb(185, 185, 185);
 }
 
 .navbar .logo{
@@ -36,4 +45,40 @@ header{
 
 .navbar nav{
     padding-right: 16px;
+}
+
+header video{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.punch-line{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 80vh;
+    z-index: 5;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 32px;
+}
+
+.punch-line h1{
+    font-size: 4em;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.punch-line p{
+    color: rgb(187, 187, 187);
+    font-size: 1.2em;
 }
