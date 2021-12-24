@@ -2,9 +2,11 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background: rgb(255, 148, 130);
+    background: linear-gradient(45deg, rgba(255, 148, 130, 1) 0%, rgba(125, 119, 255, 1) 100%);
 }
 
-header{
+header {
     width: 100vw;
     height: 80vh;
     background-color: black;
@@ -12,13 +14,13 @@ header{
     position: relative;
 }
 
-.navbar{
+.navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
     align-items: center;
-    
+
     position: absolute;
     z-index: 5;
     top: 0;
@@ -27,27 +29,27 @@ header{
     color: rgb(185, 185, 185);
 }
 
-.navbar .logo{
+.navbar .logo {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.navbar .logo img{
+.navbar .logo img {
     width: 64px;
 }
 
-.navbar nav ul{
+.navbar nav ul {
     display: flex;
     flex-direction: row;
-    gap:10px;
+    gap: 10px;
 }
 
-.navbar nav{
+.navbar nav {
     padding-right: 16px;
 }
 
-header video{
+header video {
     width: 100%;
     position: absolute;
     top: 0;
@@ -56,11 +58,11 @@ header video{
     opacity: 0.5;
 }
 
-.punch-line{
+.punch-line {
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
+    width: 70%;
     height: 80vh;
     z-index: 5;
 
@@ -71,14 +73,17 @@ header video{
     padding-left: 32px;
 }
 
-.punch-line h1{
+.punch-line h1 {
     font-size: 4em;
     color: white;
     text-transform: uppercase;
     font-weight: 600;
+
+    text-shadow: tomato 0px 0px 20px;
+    letter-spacing: 15px;
 }
 
-.punch-line p{
+.punch-line p {
     color: rgb(187, 187, 187);
     font-size: 1.2em;
 }
