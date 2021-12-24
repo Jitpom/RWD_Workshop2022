@@ -9,7 +9,23 @@ body {
     margin: 0 auto;
 }
 
-.box h1{
+.container h1{
     font-size: 5em;
+}
+
+.header{
+    background-color: orange;
+}
+
+.main{
+    background-color: greenyellow;
+}
+
+.side{
+    background-color: indianred;
+}
+
+.footer{
+    background-color: rgb(59, 209, 255);
 }
 
