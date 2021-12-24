@@ -13,6 +13,8 @@ body {
     flex-wrap: wrap;
     background-color: indigo;
     align-items: stretch;
+
+    gap: 20px;
 }
 
 
