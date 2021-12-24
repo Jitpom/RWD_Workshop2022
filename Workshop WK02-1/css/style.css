@@ -5,6 +5,8 @@ body {
 }
 
 .container {
+    width: 1024px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
