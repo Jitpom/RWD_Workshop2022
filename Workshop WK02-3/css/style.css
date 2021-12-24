@@ -14,7 +14,8 @@ body {
     cursor: pointer;
 }
 
-.ancho a, .anchor a:link, .anchor a:hover, .anchor a:active, .anchor a:visited{
+.anchor a, .anchor a:link, .anchor a:hover, .anchor a:active, .anchor a:visited{
     color:white;
+    text-decoration: none;
 }
 
