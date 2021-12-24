@@ -15,10 +15,25 @@ header{
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
+}
+
+.navbar .logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar .logo img{
+    width: 64px;
 }
 
 .navbar nav ul{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap:10px;
+}
+
+.navbar nav{
+    padding-right: 16px;
 }
