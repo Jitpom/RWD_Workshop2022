@@ -8,7 +8,10 @@ body {
     width: 1024px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: indigo;
 }
 
 
