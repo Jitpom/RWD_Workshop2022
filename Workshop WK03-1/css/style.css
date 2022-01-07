@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'Pom';
+    src: url('../fonts/jack_simba_-_personal_use-webfont.woff2') format('woff2'),
+        url('../fonts/jack_simba_-_personal_use-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Pom';
+    font-size: 4em;
+}
+
 .container {
     width: 100vw;
     height: 100vh;
@@ -37,7 +50,7 @@
     cursor: pointer;
 }
 
-.box-2:hover{
+.box-2:hover {
     /* animation-name: moving-animation;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -52,7 +65,7 @@
         transform: rotate(0deg) translateY(0px);
     }
 
-    50%{
+    50% {
         transform: translateY(-100px);
     }
 
