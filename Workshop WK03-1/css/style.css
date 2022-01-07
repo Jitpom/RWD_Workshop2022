@@ -33,13 +33,16 @@
 .box-2 {
     width: 300px;
     height: 300px;
-    animation-name: moving-animation;
+    background-color: rgb(255, 34, 218);
+    cursor: pointer;
+}
+
+.box-2:hover{
+    /* animation-name: moving-animation;
     animation-duration: 5s;
-    /* animation-delay: 5s; */
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    animation-fill-mode: both;
-    background-color: rgb(35, 222, 255);
+    animation-fill-mode: both; */
 }
 
 @keyframes moving-animation {
