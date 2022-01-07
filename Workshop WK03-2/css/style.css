@@ -22,17 +22,17 @@ header nav{
 
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 8px;
 }
 
 nav li{
     list-style: none;
     cursor: pointer;
+    padding: 8px;
 }
 
 nav li i{
     margin-right: 4px;
-    padding: 8px;
 }
 
 header .menu-logo{
@@ -45,9 +45,10 @@ header .menu-logo .zmdi-menu {
     right: 16px;
     cursor: pointer;
     z-index: 5;
+    font-size: 32px;
 }
 header .menu-logo:hover nav{
-    transform: translateY(36px);
+    transform: translateY(60px);
 }
 
 header nav li:hover{
