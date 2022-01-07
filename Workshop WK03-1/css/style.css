@@ -75,3 +75,16 @@ h1 {
         transform: rotate(180deg) translateY(0px);
     }
 }
+
+.container img{
+    width: 64px;
+    color: lightcoral;
+}
+
+.container i{
+    color: lightcoral;
+}
+
+.container .blue{
+   color: navy; 
+}
