@@ -4,36 +4,15 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-nav{
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-    gap: 16px;
-}
-
-nav li{
-    list-style: none;
-}
-nav li i{
-    margin-right: 4px;
-    color: olivedrab;
-}
-
 header{
     height: 60vh;
     width: 100vw;
     background-color: olivedrab;
 }
 
-@media screen and (max-width: 600px) {
-    nav{
-        display: none;
-    }
-    nav li i{
-        color: rgb(142, 35, 35);
-    }
-
-    header{
-        background-color: rgb(142, 35, 35);
-    }
+.nav-container{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
 }
+
