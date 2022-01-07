@@ -10,9 +10,40 @@ header{
     background-color: olivedrab;
 }
 
-.nav-container{
-    width: 100vw;
-    display: flex;
-    justify-content: flex-end;
+header nav{
+    position: absolute;
+    top: 16px;
+    right: 0px;
+    width: 120px;
+    z-index: 1;
+    transform: translateY(-500px);
+    transition: 0.2s all ease-in;
+    background-color: rgb(204, 204, 204) ;
 }
+
+nav li{
+    list-style: none;
+    height: 40px;
+}
+
+nav li i{
+    margin-right: 4px;
+}
+
+header .menu-logo{
+    position: relative;
+}
+
+header .menu-logo {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+    z-index: 5;
+}
+header .menu-logo:hover nav{
+    transform: translateY(0);
+}
+
+
 
