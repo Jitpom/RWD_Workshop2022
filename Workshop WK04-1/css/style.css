@@ -101,7 +101,25 @@ header .hero h1 {
           flex-grow: 1;
   text-align: center;
   color: #d4d4d4;
-  border: 1px solid #8f281f;
-  border-radius: 20px;
+  border: 5px solid #8f281f;
+  border-radius: 5px;
+}
+
+#content-container article:nth-of-type(2) {
+  border: 0px solid #8f281f;
+  border-radius: 0px;
+}
+
+#content-container article:nth-of-type(3) {
+  border: 0px solid #8f281f;
+  border-radius: 0px;
+}
+
+#content-container article.active {
+  background-color: #8f281f;
+}
+
+#content-container article:hover {
+  background-color: rgba(143, 40, 31, 0.5);
 }
 /*# sourceMappingURL=style.css.map */

@@ -8,9 +8,9 @@ $secondary-color: rgb(46, 46, 46);
 $text-primary-color: rgb(212, 212, 212);
 
 
-@mixin round-border {
-    border: 1px solid $primary-color;
-    border-radius: 20px;
+@mixin round-border ($border-thickness) {
+    border: $border-thickness solid $primary-color;
+    border-radius: $border-thickness;
 }
 
 body{
@@ -48,6 +48,19 @@ header {
         text-align: center;
         color: $text-primary-color;
 
-        @include round-border();
+        @include round-border(5px);
+
+        &:nth-of-type(2){
+            @include round-border(0px);
+        }
+        &:nth-of-type(3){
+            @include round-border(0px)
+        }
+        &.active{
+            background-color: $primary-color;
+        }
+        &:hover{
+            background-color: rgba($primary-color, 0.5);
+        }
     }
 }
