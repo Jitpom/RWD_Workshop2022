@@ -3,10 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,600;1,800;1,900&display=swap');
 
 //Define variables
-$primary-color: rgb(143, 40, 31);
+$primary-color: rgb(187, 63, 52);
 $secondary-color: rgb(46, 46, 46);
 $text-primary-color: rgb(212, 212, 212);
-
 
 @mixin round-border ($border-thickness, $height) {
     height: $height;
