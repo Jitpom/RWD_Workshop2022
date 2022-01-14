@@ -9,6 +9,7 @@ body{
 }
 
 header{
+    width: 100%;
     #hero{
         width: 100%;
         height: 80vh;
@@ -20,6 +21,27 @@ header{
             padding: 32px;
             font-size: 5em;
             font-weight: bold;
+        }
+    }
+    #top-nav{
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        i{
+            padding: 16px;
+            cursor: pointer;
+            &.fa-bars{
+                display: block;
+            }
+            &.fa-times{
+                display: none;
+            }
         }
     }
 }
