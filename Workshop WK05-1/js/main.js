@@ -14,4 +14,10 @@ $(document).ready(function(){
         $("#top-nav").removeClass("active");
     });
 
+    //If the window is scrolled, call this function
+    $(window).scroll(function(){
+        let currentScrollTop = $(this).scrollTop();
+        console.log(currentScrollTop);
+    });
+
 });
