@@ -26,12 +26,21 @@ header{
         }
 
         #circle-a{
-            // transform: translateX(-100px);
             transition: 0.5s all ease-in;
+            circle{
+                stroke: blue;
+                stroke-width: 10;
+                stroke-dasharray: 40;
+            }
         }
         #circle-b{
-            // transform: translateX(100px);
             transition: 0.5s all ease-in;
+            circle{
+                stroke: red;
+                stroke-width: 10;
+                stroke-dasharray: 40;
+                stroke-dashoffset: 20;
+            }
         }
     }
     #top-nav{
