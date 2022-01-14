@@ -25,6 +25,10 @@ $(document).ready(function(){
         else{
             $("#top-nav").removeClass("scroll-active");
         }
+
+        $("#circle-a").css("transform", "translateX(" + (-currentScrollTop) +"px)");
+        $("#circle-b").css("transform", "translateX(" + currentScrollTop +"px)");
+        
     });
 
 });
