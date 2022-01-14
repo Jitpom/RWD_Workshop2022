@@ -18,6 +18,13 @@ $(document).ready(function(){
     $(window).scroll(function(){
         let currentScrollTop = $(this).scrollTop();
         console.log(currentScrollTop);
+
+        if (currentScrollTop > 1){
+            $("#top-nav").addClass("scroll-active");
+        }
+        else{
+            $("#top-nav").removeClass("scroll-active");
+        }
     });
 
 });
