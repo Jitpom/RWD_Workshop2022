@@ -43,5 +43,16 @@ header{
                 display: none;
             }
         }
+
+        &.active{
+            i{
+                &.fa-bars{
+                    display: none;
+                }
+                &.fa-times{
+                    display: block;
+                }
+            }
+        }
     }
 }
