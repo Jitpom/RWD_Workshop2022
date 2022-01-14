@@ -123,11 +123,13 @@ header{
         width: 50%;
         object-fit: cover;
         object-position: center;
+        
     }
     .content{
         width: 50%;
         box-shadow: 0px 2px 4px $light-grey;
         padding: 16px;
+        
         h1{
             font-size: 1.5em;
             font-weight: bold;
@@ -138,6 +140,20 @@ header{
             color: darken($light-grey, 20%);
         }
     }
+
+    @media screen and (max-width: 768px){
+        flex-direction: column;
+        width: 100%;
+
+        img{
+            width: 100%;
+        }
+
+        .content{
+            width: 100%;
+            box-sizing: border-box;
+        }
+    }
 }
 
 #svg-container{
@@ -146,8 +162,11 @@ header{
     box-sizing: border-box;
     background-color: rgb(32, 25, 25);
 
+
     svg{
         width: 100%;
+        // border: 1px solid black;
+        box-sizing: border-box;
 
         #snowball{
             animation-name: snowball-move;
