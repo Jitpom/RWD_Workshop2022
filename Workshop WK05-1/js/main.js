@@ -26,8 +26,8 @@ $(document).ready(function(){
             $("#top-nav").removeClass("scroll-active");
         }
 
-        $("#circle-a").css("transform", "translateX(" + (-currentScrollTop) +"px) rotate(" + currentScrollTop + "deg)");
-        $("#circle-b").css("transform", "translateX(" + currentScrollTop +"px) rotate(" + currentScrollTop + "deg)");
+        $("#circle-a").css("transform", "translateX(" + (-currentScrollTop*5) +"px) rotate(" + currentScrollTop*2 + "deg)");
+        $("#circle-b").css("transform", "translateX(" + currentScrollTop*5 +"px) rotate(" + currentScrollTop*2 + "deg)");
         
     });
 
